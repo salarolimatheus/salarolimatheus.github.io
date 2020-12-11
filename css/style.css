@@ -9,7 +9,7 @@ body {
 
 
 /*---------------------------------------
-    Typorgraphy              
+    Typorgraphy
 -----------------------------------------*/
 
 h1,h2,h3,h4,h5,h6 {
@@ -59,10 +59,10 @@ strong {
 
 
 /*---------------------------------------
-    General               
+    General
 -----------------------------------------*/
 
-html{
+html {
   -webkit-font-smoothing: antialiased;
 }
 
@@ -92,13 +92,17 @@ a:hover, a:active, a:focus {
 }
 
 #portfolio,
-#about,
 #blog,
 #contact,
 #single-project,
 #blog-single-post {
-  padding-top: 80px;
-  padding-bottom: 120px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+#about {
+  padding-top: 5px;
+  padding-bottom: 50px;
 }
 
 .section-title {
@@ -113,9 +117,8 @@ a:hover, a:active, a:focus {
   letter-spacing: 4px;
 }
 
-
 /*---------------------------------------
-    Preloader section              
+    Preloader section
 -----------------------------------------*/
 
 .preloader {
@@ -139,7 +142,7 @@ a:hover, a:active, a:focus {
   border-radius: 40px;
   position: relative;
   -webkit-animation: sk-innerCircle 1s linear infinite;
-  animation: sk-innerCircle 1s linear infinite; 
+  animation: sk-innerCircle 1s linear infinite;
 }
 
 .sk-spinner-wordpress .sk-inner-circle {
@@ -150,7 +153,7 @@ a:hover, a:active, a:focus {
   position: absolute;
   border-radius: 8px;
   top: 5px;
-  left: 5px; 
+  left: 5px;
 }
 
 @-webkit-keyframes sk-innerCircle {
@@ -174,14 +177,14 @@ a:hover, a:active, a:focus {
 
 
 /*---------------------------------------
-    Main Navigation             
+    Main Navigation
 -----------------------------------------*/
 
 .navbar-default {
     background: #ffffff;
     padding: 18px 0;
     border: none;
-    margin-top: 62px;
+    margin-top: 30px;
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
@@ -240,14 +243,12 @@ a:hover, a:active, a:focus {
   }
 
 .navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus { 
+.navbar-default .navbar-toggle:focus {
   background-color: transparent;
 }
 
-
-
 /*---------------------------------------
-    Home section              
+    Home section
 -----------------------------------------*/
 
 #home {
@@ -263,8 +264,8 @@ a:hover, a:active, a:focus {
      align-items: center;
     position: relative;
     text-align: center;
-    padding-top: 60px;
-    padding-bottom: 40px;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 
 #home hr {
@@ -272,12 +273,9 @@ a:hover, a:active, a:focus {
   margin-top: 32px;
 }
 
-
-
 /*---------------------------------------
-   About section              
+   About section
 -----------------------------------------*/
-
 #about .text-center {
   padding-bottom: 42px;
 }
@@ -293,8 +291,8 @@ a:hover, a:active, a:focus {
 
 #about hr {
   width: 100px;
-  margin-top: 42px;
-  margin-bottom: 42px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 #about ul {
@@ -309,10 +307,8 @@ a:hover, a:active, a:focus {
   padding-bottom: 2px;
 }
 
-
-
 /*---------------------------------------
-   Portfolio section              
+   Portfolio section
 -----------------------------------------*/
 
 #portfolio small {
@@ -361,10 +357,8 @@ a:hover, a:active, a:focus {
   padding-top: 62px;
 }
 
-
-
 /*---------------------------------------
-   Single Project section              
+   Single Project section
 -----------------------------------------*/
 
 #single-project {
@@ -397,7 +391,7 @@ a:hover, a:active, a:focus {
 
 
 /*---------------------------------------
-   Contact section              
+   Contact section
 -----------------------------------------*/
 
 #contact .col-md-6,
@@ -438,7 +432,7 @@ a:hover, a:active, a:focus {
 
 
 /*---------------------------------------
-   Blog section              
+   Blog section
 -----------------------------------------*/
 
 .blog-post-thumb {
@@ -590,7 +584,7 @@ a:hover, a:active, a:focus {
 
 
 /*---------------------------------------
-   Blog Single Post section              
+   Blog Single Post section
 -----------------------------------------*/
 
 #blog-single-post .blog-post-des h3 {
@@ -600,12 +594,12 @@ a:hover, a:active, a:focus {
 
 
 /*---------------------------------------
-   Footer section              
+   Footer section
 -----------------------------------------*/
 
 footer {
     border-top: 1px solid #f0f0f0;
-    padding: 100px 0px;
+    padding: 20px 0px;
     position: relative;
 }
 
@@ -629,14 +623,14 @@ footer .footer-copyright {
 
 
 /*---------------------------------------
-   Social icon             
+   Social icon
 -----------------------------------------*/
 
 .social-icon {
     position: relative;
     padding: 0;
     margin: 0;
-    text-align: center;
+    text-align: right;
 }
 
 .social-icon li {
@@ -664,7 +658,7 @@ footer .footer-copyright {
 
 
 /*---------------------------------------
-   Mobile Responsive         
+   Mobile Responsive
 -----------------------------------------*/
 
 
@@ -712,4 +706,73 @@ footer .footer-copyright {
 
 }
 
+/*---------------------------------------
+    My changes
+-----------------------------------------*/
+.name-background {
+  position: relative;
+  padding-bottom: 62px;
+  margin-top: 15px;
+  text-align: center;
+  margin-bottom: 30px;
+}
 
+.name-background h2 {
+  color: #555;
+  font-weight: 600;
+  font-size: 35px;
+  letter-spacing: 4px;
+}
+
+.name-background h3 {
+  color: #555;
+  font-weight: 200;
+  font-size: 22px;
+  letter-spacing: 4px;
+}
+
+#about-sections small {
+  color: #f0f0f0;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+#about-sections .portfolio-thumb {
+  position: relative;
+  padding: 0;
+  margin-top: 32px;
+}
+
+#about-sections .portfolio-thumb .portfolio-overlay {
+  position: absolute;
+  background: #222;
+  color: #ffffff;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  vertical-align: top;
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+}
+
+#about-sections .portfolio-item {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    -webkit-transform:translate(-50%,-50%);
+      -ms-transform:translate(-50%,-50%);
+          transform:translate(-50%,-50%);
+}
+
+#about-sections .portfolio-thumb:hover .portfolio-overlay {
+  opacity: 0.9;
+}
+
+#about-sections .text-center {
+  padding-top: 62px;
+}
